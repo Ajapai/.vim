@@ -41,6 +41,9 @@ set undodir=~/.vim/undodir
 " relate to that god damn traceback line
 set number
 
+" use system clipboard
+set clipboard=unnamedplus
+
 "
 " KEYBINDINGS - to be foster lazyness
 "
