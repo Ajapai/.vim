@@ -11,9 +11,8 @@ imap <F3> <ESC>:NERDTreeToggle<CR>
 """"""""""""""""""""""""""""""""""""""""""""""""""
 Plug 'itchyny/lightline.vim'
 Plug 'mengelbrecht/lightline-bufferline'
-Plug 'sonph/onehalf', {'rtp': 'vim/'}
 let g:lightline = {
-  \ 'colorscheme': 'onehalfdark',
+  \ 'colorscheme': 'solarized',
   \ 'active': {
   \   'left': [ [ 'mode', 'paste' ],
   \             [ 'readonly', 'filename', 'modified' ] ]
